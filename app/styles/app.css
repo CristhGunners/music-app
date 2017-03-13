@@ -1,0 +1,125 @@
+body {
+  font-family: monospace;
+  background-color: #eeeeee;
+  color: white;
+}
+
+/* Header */
+
+.page-header {
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  /* background-color: red;*/
+}
+.page-header__player {
+  width:200px;
+  height:50px;
+  background-color: #333332;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.page-header__song {
+  width:500px;
+  height:50px;
+  background-color: #333332;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+/* Content */
+
+.content {
+  width:100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  margin-top: 10px;
+}
+
+/* Discs */
+
+.discs {
+  width:200px;
+  background-color: #333332;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.discs__disc {
+  width:100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom:0;
+  }
+}
+
+.discs__disc__cover {
+  width:100%;
+  display: block;
+  margin: 0;
+}
+.discs__disc__cover img {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+.discs__disc__artist-name,
+.discs__disc__title {
+  color: white;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+}
+.discs__disc__artist-name {
+  font-size: 18px;
+}
+.discs__disc__title {
+  font-size: 14px;
+}
+
+/* Songs */
+
+.songs {
+  width:70%;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.song {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  width:100%;
+  text-decoration: none;
+  background-color: #333332;
+  padding: 10px;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color:#666666;
+  }
+
+}
+.song__name {
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.icon-play {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}

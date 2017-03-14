@@ -52,6 +52,9 @@ body {
   background-color: #333332;
   padding: 10px;
   box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 85vh;
 }
 .discs__disc {
   width:100%;
@@ -86,6 +89,9 @@ body {
 .discs__disc__title {
   font-size: 14px;
 }
+.discs__disc__title a {
+  color:white;
+}
 
 /* Songs */
 
@@ -95,6 +101,9 @@ body {
   background-color: transparent;
   padding: 0 10px;
   box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 85vh;
 }
 .song {
   display: flex;

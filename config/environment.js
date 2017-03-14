@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'itunes',
+    modulePrefix: 'music-app',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',

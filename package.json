@@ -1,7 +1,7 @@
 {
-  "name": "itunes",
+  "name": "music-app",
   "version": "0.0.0",
-  "description": "Small description for itunes goes here",
+  "description": "Small description for Music App goes here",
   "private": true,
   "directories": {
     "doc": "doc",

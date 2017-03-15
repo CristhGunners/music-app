@@ -105,6 +105,9 @@ body {
   overflow-y: auto;
   height: 85vh;
 }
+.songs h2 {
+  color:#333332;
+}
 .song {
   display: flex;
   align-items: center;

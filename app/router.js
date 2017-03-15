@@ -8,7 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('discs', function() {
-    this.route('songs');
+    this.route('show', { path: '/:disc_id' });
   });
 });
 
